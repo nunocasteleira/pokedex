@@ -1,0 +1,1 @@
+type DetailedPokemon = Pokemon & PokemonSpecies;

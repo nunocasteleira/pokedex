@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pokedex-title-gradient {
+    background: linear-gradient(
+      120deg,
+      theme("colors.orange.500") 50%,
+      theme("colors.slate.900") calc(50% + 1px)
+    );
+  }
+
+  .pagination-current-page {
+    @apply z-10 border-red-500 bg-red-50 text-red-600;
+  }
+}
